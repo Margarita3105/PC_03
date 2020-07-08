@@ -17,7 +17,7 @@ public class PortalWebrCrudController {
 	private PortalWebServicio servicio;
 	
 	@RequestMapping("/verCrudPortalWeb")
-	public String ver() {	
+	public String ver() {
 		return "crudPortalWeb";
 	}
 	
